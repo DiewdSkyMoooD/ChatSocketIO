@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.center{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.messages{
+    border: 1px solid gray;
+    min-height: 70vh;
+    overflow-y: auto;
+    max-height: 70vh;
+}
+.messages p{
+    background-color:violet;
+    color: white;
+    border: purple 1px solid;
+    margin: 2px;
+    border-radius: 10px;
+    padding: 2px 15px;
+    display: table;
+}
